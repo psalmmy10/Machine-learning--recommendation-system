@@ -1,8 +1,8 @@
-**/README.md
-**/requirents.txt
-**/my_package.egg-info
-**/data
-**/build
-**/setup.py
-.ipynb_checkpoints
+# **/README.md
+# **/requirents.txt
+# **/my_package.egg-info
+# **/data
+# **/build
+# **/setup.py
+# .ipynb_checkpoints
 
