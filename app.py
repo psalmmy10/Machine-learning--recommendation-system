@@ -2,6 +2,10 @@ import pickle
 import streamlit as st
 import numpy as np
 
+st.set_page_config(
+    page_title="Book Reommendation App",
+) 
+
 st.header('recommendation system using machine learning')
 model = pickle.load(open('artifacts/model.pkl', 'rb'))
 books_name = pickle.load(open('artifacts/books_name.pkl', 'rb'))
@@ -66,5 +70,7 @@ if st.button('Show recommendation'):
         st.image(poster_url[4])    
     with col5:
         st.text(recommendation_books[5])
-        st.image(poster_url[5])    
+        st.image(poster_url[5])  
+        
+ 
    
