@@ -54,7 +54,7 @@ selected_books = st.selectbox(
 
 if st.button('Show recommendation'):
     recommendation_books, poster_url = recommend_books(selected_books)
-    col1, col2, col3, col4, col5 =  st.columns(5)
+    col1, col2, col3, col4, col5 = st.columns(5)
     
     with col1:
         st.text(recommendation_books[1])
